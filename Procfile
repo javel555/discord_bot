@@ -1,1 +1,1 @@
-worker: bundle exec ruoty
+worker: bundle exec ruboty
