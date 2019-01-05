@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/javel555/look_at_me.git
-  revision: 84d16384c9f777f3125b73b3d799d787e6a8367b
+  revision: c25654a6c3a6bdc7f1029d337f497f7412e5713c
   specs:
     ruboty-look_at_me (0.1.0)
       rubicure
