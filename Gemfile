@@ -14,4 +14,10 @@ gem "ruboty-google_image"
 
 gem "ruboty-ruby"
 
-gem "rubicure"
+gem "ruboty-look_at_me", git: "https://github.com/javel555/look_at_me.git"
+
+gem "ruboty-fortune"
+
+gem 'ruboty-misawa', github: 'mzp/ruboty-misawa'
+gem 'ruboty-irasutoya', git: 'https://github.com/june29/ruboty-irasutoya.git'
+gem 'ruboty-ito_life', git: 'https://github.com/mmyoji/ruboty-ito_life.git'

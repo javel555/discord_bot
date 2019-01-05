@@ -1,3 +1,32 @@
+GIT
+  remote: https://github.com/javel555/look_at_me.git
+  revision: 84d16384c9f777f3125b73b3d799d787e6a8367b
+  specs:
+    ruboty-look_at_me (0.1.0)
+      rubicure
+      ruboty
+
+GIT
+  remote: https://github.com/june29/ruboty-irasutoya.git
+  revision: 1f38273cc7d8f3315ef07221b1f761bbc1393575
+  specs:
+    ruboty-irasutoya (1.0.2)
+      ruboty
+
+GIT
+  remote: https://github.com/mmyoji/ruboty-ito_life.git
+  revision: d015ee8301a7a7087c07e6c10cd526d055f653bf
+  specs:
+    ruboty-ito_life (0.1.0)
+      ruboty
+
+GIT
+  remote: https://github.com/mzp/ruboty-misawa
+  revision: 5b39a2f03fa13b45804f8415352c2eaa5732152d
+  specs:
+    ruboty-misawa (0.0.1)
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -25,18 +54,22 @@ GEM
     faraday_middleware (0.12.2)
       faraday (>= 0.7.4, < 1.0)
     ffi (1.9.25)
+    hashie (3.6.0)
     http-accept (1.7.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    i18n (1.3.0)
+    i18n (1.4.0)
       concurrent-ruby (~> 1.0)
     mem (0.1.5)
     mime-types (3.2.2)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2018.0812)
+    mini_portile2 (2.4.0)
     minitest (5.11.3)
     multipart-post (2.0.0)
     netrc (0.11.0)
+    nokogiri (1.10.0)
+      mini_portile2 (~> 2.4.0)
     opus-ruby (1.0.1)
       ffi
     rbnacl (3.4.0)
@@ -46,6 +79,10 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
+    rubicure (1.1.8)
+      activesupport (>= 5.0.0)
+      hashie (>= 2.0.5)
+      sengiri_yaml (>= 0.0.2)
     ruboty (1.3.0)
       activesupport
       bundler
@@ -55,12 +92,16 @@ GEM
     ruboty-discord (1.0.0)
       discordrb (~> 3.2)
       ruboty (>= 1.0.4)
+    ruboty-fortune (0.1.0.2)
+      nokogiri
+      ruboty
     ruboty-google_image (0.1.1)
       faraday
       faraday_middleware
       ruboty
     ruboty-ruby (0.0.2)
       ruboty
+    sengiri_yaml (0.0.3)
     slop (4.6.2)
     thread_safe (0.3.6)
     tzinfo (1.2.5)
@@ -80,7 +121,12 @@ DEPENDENCIES
   dotenv
   ruboty
   ruboty-discord
+  ruboty-fortune
   ruboty-google_image
+  ruboty-irasutoya!
+  ruboty-ito_life!
+  ruboty-look_at_me!
+  ruboty-misawa!
   ruboty-ruby
 
 BUNDLED WITH
